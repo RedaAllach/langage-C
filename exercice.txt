@@ -76,3 +76,39 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+--------------------------------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int a , b , c;
+	int somme;
+	int moyenne;
+	a = 1;
+	b = 1;
+	c = 1;
+	printf("a = %d , b = %d , c = %d \n",a,b,c);
+	printf("a + b + c = %d \n",a+b+c);
+	somme= 3;
+	printf("somme/3 = %d",somme/3);
+	moyenne = somme/3;
+	printf("moyenne est %d",moyenne);
+	
+	
+	
+
+	
+	
+
+	
+
+
+	
+	
+	
+	
+	
+	return 0;
+}
