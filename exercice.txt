@@ -58,3 +58,21 @@ int main() {
 	
 	return 0;
 }
+------------------------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	float d,mettre;
+	printf("la distance en mettre");
+	scanf("%f",&d);
+	mettre=d+1000/1.609;
+	printf("la transforme en mettre est %f,mettre");
+	
+
+
+	
+	return 0;
+}
