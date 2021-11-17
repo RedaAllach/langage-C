@@ -5,11 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	int i,x;
-	printf("entrez x");
+	printf("entrez x ");
 	scanf("%d",&x);
 	
 	for (i=1;i<=10;i++)
-    printf("x = %d",x*i);	
+    printf("%d*%d = %d\n",x,i,x*i);	
+    
 	
 		return 0;
 }
